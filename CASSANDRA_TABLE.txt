@@ -1,0 +1,15 @@
+create keyspace cassandra with replication={'class':'SimpleStrategy','replication_factor':3};
+
+
+use cassandra;
+
+
+create table final1(
+video_id text,
+published_at text,
+comment_id text,
+sentence_id int,
+comment text,
+ass_cmt text,
+primary key((video_id,published_at),comment_id,sentence_id)
+);
