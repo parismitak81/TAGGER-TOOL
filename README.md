@@ -1,4 +1,4 @@
-# TAGGER-TOOL
+# TaggerTool 
 Online tagger system for transliterating social media text
 ********************************************************
 
